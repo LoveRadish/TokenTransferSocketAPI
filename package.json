@@ -1,0 +1,24 @@
+{
+  "name": "nodewebsocketapibsc",
+  "version": "1.0.0",
+  "description": "this is the API for ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.13",
+    "request": "^2.88.2",
+    "websocket": "^1.0.34",
+    "ws": "^7.4.6"
+  }
+}
